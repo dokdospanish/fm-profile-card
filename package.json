@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "build": "npx tailwindcss -i ./tailwind-in.css -o ./tailwind-out.css",
+    "watch": "npx tailwindcss -i ./tailwind-in.css -o ./tailwind-out.css --watch"
+  },
   "devDependencies": {
     "tailwindcss": "^3.3.2"
   }

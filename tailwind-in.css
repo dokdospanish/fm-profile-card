@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 @layer base {
+  body {    
+    background-image: 
+      url('./assets/images/bg-pattern-top.svg'),
+      url('./assets/images/bg-pattern-bottom.svg');
+
+    background-position:
+      bottom 50vh right 50vw,
+      top 50vh left 50vw;
+
+    background-repeat: no-repeat;
+  }
+  
   a {
     @apply underline font-bold text-blue-600 hover:text-blue-800
   }
