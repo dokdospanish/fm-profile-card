@@ -1,0 +1,8 @@
+[dev]
+  publish = "public"
+[build]
+  publish = "public"
+
+[[[redirects]]
+  from = "/"
+  to = "/profile/"]
